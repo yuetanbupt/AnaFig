@@ -1,7 +1,7 @@
 # 📊 AnaFig
-🏠[Home](https://github.com/yuetanbupt/AnaFig.github.io/) | 🤗[Data](https://huggingface.co/datasets/princeton-nlp/CharXiv) | 🥇| 📄[Paper](https://arxiv.org/abs/2406.18521) | *Current Version: v1.0*
+🏠[Home](https://github.com/yuetanbupt/AnaFig.github.io/) | *Current Version: v1.0*
 
-This repository contains the code to evaluate models on AnaFig from the paper [AnaFig: A Human-Aligned Dataset for Scientiffc Figure Analysis](https://arxiv.org/abs/2406.18521).
+This repository contains the code to evaluate models on AnaFig from the paper [AnaFig: A Human-Aligned Dataset for Scientiffc Figure Analysis].
 
 *🤗 We are first-time evaluation suite builders and this codebase is released for the first-time. We are committed to improving it. If you have any questions, feel free to raise issues and/or submit pull requests for new features of bug fixes.*
 
@@ -145,25 +145,12 @@ Results of various evaluation methods in summarization-level.
 | Claude-3.5 | 0.1024 | 0.3645 | 0.2903     | 0.5114   | 0.2274   | 0.3153   | 3.98       |
 
 ## 📜 License
-Our original data contributions  are distributed under the [CC BY-SA 4.0](data/LICENSE) license. Our code is licensed under [Apache 2.0](LICENSE) license..
+Our original data contributions are distributed under the MIT license.
 
-
-## 🥺 Cite
-If you use our work and are inspired by our work, please consider cite us (available soon):
-```bibtex
-@article{yue2025anafig,
-  title={AnaFig: A Human-Aligned Dataset for Scientific Figure Analysis},
-  author={Yue, Tan and Shi, Xuzhao and Mao, Rui and Song, Zilong and Hu, Zonghai and Zhao, Dongyan},
-  journal={ACM Multimedia},
-  year={2025},
-  month={10},
-  note={Proceedings of ACM Multimedia 2025}
-}
-```
 ## 🙌 Contributors and Acknowledgement
 **📊 AnaFig is developed by a team consisting of:**  
 Yue Tan, Xuzhao Shi, Rui Mao, Zilong Song, Zonghai Hu, Dongyan Zhao
-
+Email to yuetan@pku.edu.cn
 WICT, Peking University
 Beijing University of Posts and Telecommunications
 Nanyang Technological University
