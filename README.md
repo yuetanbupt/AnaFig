@@ -26,8 +26,8 @@ perception, and analytical summarization. By building a new benchmark
 knowledge discovery and reasoning, fostering the alignment of
 MLLMs and human experts in scientiffc analysis.
 
-![alt text](image-5.png)
-![alt text](image-6.png)
+![alt text](example_image/Fig-type.png)
+![alt text](example_image/Fig-des.png)
 ## 🛠️ Evaluate Your Models
 ### Setup
 Download the images:
