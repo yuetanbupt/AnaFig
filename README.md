@@ -125,9 +125,6 @@ python model/API_eval.py \
 
 🗄️ Once the process ends, the console will print the average value of the evaluation methods used, and you will find a file in  folder   `output/score/` named: `<file_name>-<eval_method>_score.json`. This file stores your model's evaluation results graded by the automatic evaluation methods or LLMS.
 
-## 📅 Results from Existing Models
-We release full results on the validation set (i.e., generated responses, grading done by LLMs and the aggregated stats) for all models we tested in our [github](https://huggingface.co/datasets/princeton-nlp/CharXiv/tree/main/existing_evaluations). If you are interested in doing some fine-grained analysis on these results or calculate some customized metrics, feel free to use them.
-
 ## 🏆 Benchmark Results
 
 Results of various evaluation methods in summarization-level.
