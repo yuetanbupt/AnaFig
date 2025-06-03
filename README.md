@@ -38,17 +38,6 @@ wget https://xxxxxxxxxxxxxxxxxxxxxx
 unzip images.zip && rm images.zip
 ```
 
-<details>
-<summary>  (Optional) A short tour for the codebase </summary>  
-
-* `data` folder contains all QAs and metadata for images, descriptive questions, and reasoning questions.  
-* `images` folder contains all images. Note that there are only  xxxxx images in total.  
-* `output` folder contains all response generation and scoring results.  
-* `model` folder contains all the model code used to generate anaFig responses.  
-* `eval_method`  folder contains the Python code file for all evaluation methods.
-
-</details>
-
 ### Response generation
 Before using the model to generate responses to chart-question pairs, anaFig requires configuring a Python runtime environment, which can be set up by executing `pip install -r requirements.txt`. Responses are generated using queries as input, which contain all the charts and questions that anaFig uses to evaluate models. The structure is as follows:
 ```js
