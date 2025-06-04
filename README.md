@@ -30,7 +30,7 @@ MLLMs and human experts in scientiffc analysis.
 ![alt text](example_image/Fig-des.png)
 
 ## 📊 Image Data
-Please download image data to data/image from link: https://drive.google.com/file/d/1szWDGkZXbw67u9WGy_qrs8GNjRaiFFPg/view?usp=drive_link
+Please download image data to **data/image** from link: https://drive.google.com/file/d/1szWDGkZXbw67u9WGy_qrs8GNjRaiFFPg/view?usp=sharing
 
 ## 🛠️ Evaluate Your Models
 ### Setup
