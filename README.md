@@ -3,7 +3,7 @@
 
 This repository contains the code to evaluate models on AnaFig from the paper [AnaFig: A Human-Aligned Dataset for Scientific Figure Analysis].
 
-*🤗 We are first-time evaluation suite builders and this codebase is released for the first-time. We are committed to improving it. If you have any questions, feel free to raise issues and/or submit pull requests for new features of bug fixes.*
+*🤗 This codebase is released as Version v1.0. We are dedicated to its continuous improvement. If you have any questions or suggestions, you are welcome to open an issue or submit a pull request for new features or bug fixes.*
 
 ## 👋 Introduction
 Scientific Figure Analysis (SFA) aims to derive analytical insights
