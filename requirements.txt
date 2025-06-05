@@ -1,0 +1,12 @@
+accelerate==1.6.0
+bert-score==0.3.13
+nltk==3.9.1
+numpy==2.2.5
+openai ==1.78.1 
+peft== 0.15.2 
+pillow==11.2.1
+qwen-vl-utils==0.0.11
+rouge-score==0.1.2 
+torch==2.7.0
+torchvision==0.22.0
+transformers==4.51.3 
