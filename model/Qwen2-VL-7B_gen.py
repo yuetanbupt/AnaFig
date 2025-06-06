@@ -127,11 +127,11 @@ def main():
 
     # Load model and processor
     model = Qwen2VLForConditionalGeneration.from_pretrained(
-        "Qwen/Qwen2-VL-2B-Instruct", 
+        "Qwen/Qwen2-VL-7B-Instruct", 
         torch_dtype="float16", 
         device_map="auto",
     )
-    processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-2B-Instruct")
+    processor = AutoProcessor.from_pretrained("Qwen/Qwen2-VL-7B-Instruct")
 
     # Process dataset
     with open(input_path, "r", encoding="utf-8") as f:
