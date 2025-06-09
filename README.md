@@ -28,6 +28,18 @@ MLLMs and human experts in scientific analysis.
 
 ![alt text](example_image/Fig-type.png)
 ![alt text](example_image/Fig-des.png)
+
+## 📊 Dataset Details
+
+![alt text](example_image/Fig-domain.png)
+
+The AnaFig dataset is constructed from academic papers, including 10 major domains (e.g. Computer Science, Physics, etc.) and 56 sub-domains (e.g. Quantum optics, Photoexcitations, etc.). All data are collected from an open access academic website (Arxiv\footnote{https://arxiv.org/}). We filter out figures with low resolution or poor image quality. To ensure data diversity, we manually remove specific types of figures, such as flowcharts, and sample schematics. Finally, we retain 2,000 high-quality samples cover 18 figure types (shown in Fig.~\ref{fig:type}), selected from over 6,000 academic papers. The 2,000 samples comprise 2155 figures, 2155 figure captions, and 2000 descriptive contexts, referring to the figures in the papers (note that a sample may include multiple figures and their corresponding captions).
+
+![alt text](example_image/Fig-annotation.png)
+![alt text](example_image/Fig-criteria.png)
+
+The gold-standard summaries in our AnaFig dataset are meticulously crafted by ten human experts (graduate students or researchers with PhD degrees). We leverage an annotation-evaluation-refinement process to ensure the quality of generated summaries. Five experts serve as initial annotators, generating summaries based on our established annotation criteria. Next, the other five experts act as checkers, independently evaluating and scoring all 2,000 data samples. We use five-dimensional evaluation criteria, e.g., faithfulness, completeness, conciseness, logicality, and analysis. **Faithfulness:** The summary must strictly adhere to the information presented in the figures and descriptions. **Completeness:** The summary should encompass all key information and trends depicted in the figures. **Conciseness:** The summary should avoid redundant information or non-critical details. **Logicality:** The summarized content should be logically coherent and consistent with common sense and expert knowledge. **Analysis:** The summary's analysis should be insightful and demonstrate a thorough understanding of the data. Checkers assign scores from 1 to 5 for each criterion. Summaries scoring 3 or lower on any dimension are iteratively revised until all samples achieve a score of 4 or higher across all five dimensions.
+
 ## 🛠️ Evaluate Your Models
 ### Setup
 Download the images:
@@ -131,7 +143,7 @@ Results of various evaluation methods in summarization-level.
 Our original data contributions are distributed under the MIT license.
 
 ## 🙌 Contributors and Acknowledgement
-**📊 AnaFig is developed by a team consisting of:**  
+**AnaFig is developed by a team consisting of:**  
 Yue Tan, Xuzhao Shi, Rui Mao, Zilong Song, Zonghai Hu, Dongyan Zhao
 Email to yuetan@pku.edu.cn
 WICT, Peking University
