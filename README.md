@@ -138,6 +138,6 @@ WICT, Peking University
 Beijing University of Posts and Telecommunications
 Nanyang Technological University
 
-🤗 We sincerely appreciate the open-source community for their valuable resources. The dataset construction process benefited from the academic paper retrieval tools provided by ArXiv, which facilitated the collection of figure samples across multiple domains. Special thanks also go to the contributors of open-source annotation tools, whose work improved the efficiency and quality of our human annotation process.
+🤗 We sincerely appreciate the open-source community for providing valuable resources. The dataset construction process benefited from academic paper retrieval tools offered by arXiv, which facilitated the collection of figure samples across multiple domains. We also extend special thanks to the developers of open-source annotation tools, whose contributions significantly enhanced the efficiency and quality of our human annotation process.
 
 🤗 Additionally, we acknowledge the support from the State Key Laboratory of General Artificial Intelligence (SKLGAI), which provided crucial computational resources and academic guidance for this research.
