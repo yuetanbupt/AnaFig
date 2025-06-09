@@ -31,9 +31,12 @@ MLLMs and human experts in scientific analysis.
 
 ## 📊 Dataset Details
 
-![alt text](example_image/Fig-domain.png)
+<p align="center">
+  <img src="example_image/Fig-domain.png" alt="Figure Type" width="45%" />
+  <img src="example_image/Fig-example.png" alt="Figure Description" width="45%" />
+</p>
 
-The AnaFig dataset is constructed from academic papers, including 10 major domains (e.g. Computer Science, Physics, etc.) and 56 sub-domains (e.g. Quantum optics, Photoexcitations, etc.). All data are collected from an open access academic website (Arxiv\footnote{https://arxiv.org/}). We filter out figures with low resolution or poor image quality. To ensure data diversity, we manually remove specific types of figures, such as flowcharts, and sample schematics. Finally, we retain 2,000 high-quality samples cover 18 figure types (shown in Fig.~\ref{fig:type}), selected from over 6,000 academic papers. The 2,000 samples comprise 2155 figures, 2155 figure captions, and 2000 descriptive contexts, referring to the figures in the papers (note that a sample may include multiple figures and their corresponding captions).
+The AnaFig dataset is constructed from academic papers, including 10 major domains and 56 sub-domains. All data are collected from an open access academic website. We filter out figures with low resolution or poor image quality. To ensure data diversity, we manually remove specific types of figures, such as flowcharts, and sample schematics. Finally, we retain 2,000 high-quality samples cover 18 figure types, selected from over 6,000 academic papers. The 2,000 samples comprise 2155 figures, 2155 figure captions, and 2000 descriptive contexts, referring to the figures in the papers (note that a sample may include multiple figures and their corresponding captions).
 
 ![alt text](example_image/Fig-annotation.png)
 ![alt text](example_image/Fig-criteria.png)
