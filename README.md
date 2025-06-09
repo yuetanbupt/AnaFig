@@ -128,8 +128,7 @@ python model/API_eval.py \
 
 ## 🏆 Benchmark Results
 
-Results of various evaluation methods in summarization-level.
-
+**Table: Results of various evaluation methods in summarization-level.**
 
 | Model      | BLEU   | MET    | BERT Score | ROUGE R1 | ROUGE R2 | ROUGE RL | MLLM Score |
 |:----------:|:------:|:------:|:----------:|:--------:|:--------:|:--------:|:----------:|
@@ -141,6 +140,22 @@ Results of various evaluation methods in summarization-level.
 | GPT-4o     | 0.0893 | 0.3204 | 0.2931     | 0.5148   | 0.2067   | 0.3218   | 3.90       |
 | Gemini-1.5 | 0.0993 | 0.3330 | 0.2960     | 0.5222   | 0.2159   | 0.3228   | 3.95       |
 | Claude-3.5 | 0.1024 | 0.3645 | 0.2903     | 0.5114   | 0.2274   | 0.3153   | 3.98       |
+
+**Table: MLLM Score in five-dimensional evaluation.**
+
+| Model        | Fai. | Com. | Con. | Log. | Ana. | Avg. |
+|:------------:|:----:|:----:|:----:|:----:|:----:|:----:|
+| Human        | 4.78 | 4.52 | 4.37 | 4.71 | 4.66 | 4.61 |
+| Qwen2-2B     | 3.48 | 2.95 | 3.97 | 3.66 | 2.72 | 3.36 |
+| MiniCPM      | 3.80 | 3.77 | 3.84 | 4.18 | 3.51 | 3.82 |
+| InternVL2.5  | 3.64 | 3.72 | 3.80 | 4.05 | 3.47 | 3.73 |
+| Qwen2-7B     | 3.84 | 3.60 | 3.94 | 4.26 | 3.35 | 3.80 |
+| Claude-3     | 3.85 | 3.76 | 3.98 | 4.27 | 3.57 | 3.89 |
+| GPT-4o       | 3.88 | 3.63 | 4.16 | 4.26 | 3.58 | 3.90 |
+| Gemini-1.5   | 3.87 | 3.65 | **4.35** | 4.38 | 3.49 | 3.95 |
+| Claude-3.5   | **3.91** | **3.79** | 4.05 | **4.40** | **3.74** | **3.98** |
+| Average      | 3.78 | 3.61 | 4.01 | 4.18 | 3.43 | 3.80 |
+
 
 ## 📜 License
 Our original data contributions are distributed under the MIT license.
