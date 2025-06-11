@@ -1,5 +1,5 @@
 # 📊 AnaFig
-🏠 *Current Version: v1.0*
+🏠 [Home](https://AnaFig-git.github.io/) |*Current Version: v1.0*
 
 This repository contains the code to evaluate models on AnaFig from the paper [AnaFig: A Human-Aligned Dataset for Scientific Figure Analysis].
 
@@ -112,7 +112,7 @@ python model/summary_bleu_score.py \
     --file_name $file_name \
 ```
 ```bash
-python model/API_eval.py \
+python model/API_score.py \
     --file_name $file_name \
     --api_link $api_link \
     --model_name $model_name \
@@ -161,7 +161,8 @@ Our original data contributions are distributed under the MIT license.
 
 ## 🙌 Contributors and Acknowledgement
 **AnaFig is developed by a team consisting of:**  
-Yue Tan, Xuzhao Shi, Rui Mao, Zilong Song, Zonghai Hu, Dongyan Zhao
+Tan Yue, Xuzhao Shi, Rui Mao, Zilong Song, Zonghai Hu, Dongyan Zhao
+
 Email to yuetan@pku.edu.cn
 WICT, Peking University
 Beijing University of Posts and Telecommunications
