@@ -55,7 +55,7 @@ unzip AnaFig-image.zip && rm AnaFig-image.zip
 (Alternative) Download image data from link: https://drive.google.com/file/d/1szWDGkZXbw67u9WGy_qrs8GNjRaiFFPg/view?usp=sharing
 
 ### Summary generation
-Before using the model to generate summary to chart-question pairs, anaFig requires configuring a Python runtime environment, which can be set up by executing `pip install -r requirements.txt`. Responses are generated using queries as input, which contain all the charts and questions that anaFig uses to evaluate models. The structure is as follows:
+Before using the model to generate summary to chart-question pairs, anaFig requires configuring a Python runtime environment, which can be set up by executing `pip install -r requirements.txt`. Responses are generated using queries as input, which contain all the charts and questions that AnaFig uses to evaluate models. The structure is as follows:
 ```js
 {
     "0": {
