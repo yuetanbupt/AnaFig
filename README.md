@@ -108,11 +108,11 @@ python model/Qwen2-VL-7B_gen.py
 You can choose to score the generated responses using either the automatic evaluation methods in the `eval_method/` folder or the MLLM scoring methods.
 
 ```bash
-python model/summary_bleu_score.py \
+python eval_method/summary_bleu_score.py \
     --file_name $file_name \
 ```
 ```bash
-python model/API_score.py \
+python eval_method/API_score.py \
     --file_name $file_name \
     --api_link $api_link \
     --model_name $model_name \
