@@ -1,5 +1,5 @@
 # 📊 AnaFig
-🏠 [Home](https://AnaFig-git.github.io/) |*Current Version: v1.0*
+🏠 *Current Version: v1.0*
 
 This repository contains the code to evaluate models on AnaFig from the paper [AnaFig: A Human-Aligned Dataset for Scientific Figure Analysis].
 
